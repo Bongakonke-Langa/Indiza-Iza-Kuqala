@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Layout from './Layout.tsx'; // Changed to default import
+import Layout from './components/layout/page.tsx'; // Changed to default import
 import Input from './components/ui/Input.tsx';
 import Button from './components/ui/Button.tsx'; 
 import Card from './components/ui/cards.tsx'; // Changed to default import
@@ -8,7 +8,7 @@ import CardHeader from './components/ui/cards.tsx'; // Changed to default import
 import CardTitle from './components/ui/cards.tsx'; // Changed to default import
 import { Calendar, MapPin } from 'lucide-react';
 
-const Home = () => {
+const App = () => {
     interface CardProps {
         className?: string;
         title: string;
@@ -82,4 +82,4 @@ const Home = () => {
       );
 };
 
-export default Home;
+export default App; // Changed from App to Home

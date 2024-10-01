@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("// Create a title element\nconst title = document.createElement('h1');\ntitle.textContent = 'Welcome to Our Website';\n\n// Create a button element\nconst button = document.createElement('button');\nbutton.textContent = 'Click Me';\n\n// Add an event listener to the button\nbutton.addEventListener('click', () => {\n    alert('Button was clicked!');\n});\n\n// Append elements to the body\ndocument.body.appendChild(title);\ndocument.body.appendChild(button);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// Create a title element\nconst title = document.createElement('h1');\ntitle.textContent = 'Welcome to Our Website';\n\n// Create a button element\nconst button = document.createElement('button');\nbutton.textContent = 'Click Me';\n\n// Add an event listener to the button\nbutton.addEventListener('click', () => {\n    alert('Button was clicked!');\n});\n\n// Append elements to the body\ndocument.body.appendChild(title);\ndocument.body.appendChild(button);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
